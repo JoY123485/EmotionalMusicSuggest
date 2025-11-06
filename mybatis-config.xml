@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+	<!--클래스 alias가 들어갈 공간-->
+    <typeAlias type="com.example.demo.Controller.SuggestionController" alias="SuggestionController"></typeAlias>
+    <typeAlias type="com.example.demo.Controller.UserController" alias="UserController"></typeAlias>
+    <!--indexController예시-->
+    
+    <typeAlias type="com.example.demo.DTO.UserDTO" alias="User"></typeAlias>
+    <typeAlias type="com.example.demo.DTO.MusicDTO" alias="Music"></typeAlias>
+    <typeAlias type="com.example.demo.DTO.UserEmotionDTO" alias="UserEmotion"></typeAlias>
+    <typeAlias type="com.example.demo.DTO.UserScheduleDTO" alias="UserSchedule"></typeAlias>
+    
+    
+    </typeAliases>
+</configuration>
